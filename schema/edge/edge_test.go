@@ -7,9 +7,9 @@ package edge_test
 import (
 	"testing"
 
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo"
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/schema"
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/schema/edge"
+	"github.com/briancabbott/entgoriancabbott/entgo"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/edge"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

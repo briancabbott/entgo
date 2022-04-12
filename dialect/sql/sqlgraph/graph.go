@@ -14,9 +14,9 @@ import (
 	"math"
 	"sort"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // Rel is a relation type of an edge.

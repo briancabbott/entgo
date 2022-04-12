@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqljson"
+	"github.com/briancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqljson"
 	"github.com/stretchr/testify/require"
 )
 

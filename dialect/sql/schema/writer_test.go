@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/dialect"
 
 	"github.com/stretchr/testify/require"
 )

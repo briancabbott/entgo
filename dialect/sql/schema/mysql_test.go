@@ -11,10 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/entsql"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/dialect/entsql"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/schema/field"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/require"

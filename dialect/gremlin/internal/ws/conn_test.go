@@ -12,8 +12,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/encoding/graphson"
+	"github.com/briancabbott/entgo/dialect/gremlin"
+	"github.com/briancabbott/entgo/dialect/gremlin/encoding/graphson"
 
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"

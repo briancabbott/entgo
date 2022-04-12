@@ -10,7 +10,7 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/schema"
+	"github.com/briancabbott/entgo/schema"
 )
 
 //go:generate go run internal/gen.go
