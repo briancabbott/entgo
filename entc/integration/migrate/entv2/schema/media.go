@@ -46,7 +46,7 @@ func (Media) Annotations() []schema.Annotation {
 		&entsql.Annotation{
 			Check: "text <> 'boring'",
 			Checks: map[string]string{
-				"boring_check": "source_uri <> 'entgo.io'",
+				"boring_check": "source_uri <> 'github.com/briancabbott/entgo'",
 			},
 		},
 	}

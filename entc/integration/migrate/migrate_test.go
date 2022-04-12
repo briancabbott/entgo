@@ -348,7 +348,7 @@ func CheckConstraint(t *testing.T, client *entv2.Client) {
 	t.Log("testing check constraints")
 	err := client.Media.Create().SetText("boring").Exec(ctx)
 	require.Error(t, err)
-	err = client.Media.Create().SetSourceURI("entgo.io").Exec(ctx)
+	err = client.Media.Create().SetSourceURI("github.com/briancabbott/entgo").Exec(ctx)
 	require.Error(t, err)
 }
 

@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/briancabbott/entgo/entc"
-	"github.com/briancabbott
+	"github.com/briancabbott"
 	"github.com/briancabbott/entgo/schema/field"
 	"github.com/stretchr/testify/require"
 )

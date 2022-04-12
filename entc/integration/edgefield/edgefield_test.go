@@ -53,7 +53,7 @@ func TestEdgeField(t *testing.T) {
 		c3.ID,
 	)
 
-	ps1 := client.Post.Create().SetText("entgo.io").SaveX(ctx)
+	ps1 := client.Post.Create().SetText("github.com/briancabbott/entgo").SaveX(ctx)
 	require.Nil(t, ps1.AuthorID)
 	ps1 = ps1.Update().SetAuthorID(a8m.ID).SaveX(ctx)
 	require.NotNil(t, ps1.AuthorID)

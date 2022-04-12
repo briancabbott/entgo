@@ -233,7 +233,7 @@ func init() {
 		Check: "text <> 'boring'",
 	}
 	MediaTable.Annotation.Checks = map[string]string{
-		"boring_check": "source_uri <> 'entgo.io'",
+		"boring_check": "source_uri <> 'github.com/briancabbott/entgo'",
 	}
 	PetsTable.ForeignKeys[0].RefTable = UsersTable
 	FriendsTable.ForeignKeys[0].RefTable = UsersTable
