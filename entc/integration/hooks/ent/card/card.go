@@ -9,7 +9,7 @@ package card
 import (
 	"time"
 
-	"github.com/briancabbott/entgo"
+	ent "github.com/briancabbott/entgo"
 )
 
 const (

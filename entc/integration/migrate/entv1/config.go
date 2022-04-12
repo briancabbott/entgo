@@ -7,7 +7,7 @@
 package entv1
 
 import (
-	"github.com/briancabbott/entgo"
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/dialect"
 )
 

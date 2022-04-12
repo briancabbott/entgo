@@ -9,7 +9,7 @@ package task
 import (
 	"fmt"
 
-	"github.com/briancabbott/entgo"
+	ent "github.com/briancabbott/entgo"
 )
 
 const (

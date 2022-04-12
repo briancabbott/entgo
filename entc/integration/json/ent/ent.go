@@ -11,7 +11,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/briancabbott/entgo"
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/dialect/sql"
 	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
 	"github.com/briancabbott/entgo/entc/integration/json/ent/user"

@@ -11,7 +11,7 @@ import (
 	stdsql "database/sql"
 	"fmt"
 
-	"github.com/briancabbott/entgo"
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/dialect"
 )
 

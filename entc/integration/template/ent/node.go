@@ -13,8 +13,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/briancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgo/dialect/sql/schema"
+	"github.com/briancabbott/entgo/ent/dialect/sql"
+	"github.com/briancabbott/entgo/ent/dialect/sql/schema"
 	"github.com/briancabbott/entgo/entc/integration/template/ent/group"
 	"github.com/briancabbott/entgo/entc/integration/template/ent/pet"
 	"github.com/briancabbott/entgo/entc/integration/template/ent/user"

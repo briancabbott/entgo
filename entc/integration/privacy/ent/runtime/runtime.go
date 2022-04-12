@@ -14,7 +14,7 @@ import (
 	"github.com/briancabbott/entgo/entc/integration/privacy/ent/team"
 	"github.com/briancabbott/entgo/entc/integration/privacy/ent/user"
 
-	"github.com/briancabbott/entgo"
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/privacy"
 )
 

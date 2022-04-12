@@ -21,7 +21,7 @@ import (
 	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/predicate"
 	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/user"
 
-	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/ent"
 )
 
 const (

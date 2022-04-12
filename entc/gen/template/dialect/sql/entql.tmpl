@@ -4,7 +4,7 @@ This source code is licensed under the Apache 2.0 license found
 in the LICENSE file in the root directory of this source tree.
 */}}
 
-{{/* gotype: github.com/briancabbott/entgo/ent/entc/gen.Graph */}}
+{{/* gotype: github.com/briancabbott/entgo/entc/gen.Graph */}}
 
 {{ define "dialect/sql/entql" }}
 
@@ -17,10 +17,10 @@ import (
 		{{ $n.PackageAlias }} "{{ $.Config.Package }}/{{ $n.PackageDir }}"
 	{{- end }}
 
-	"github.com/briancabbott/entgo/ent/dialect/sql"
-	"github.com/briancabbott/entgo/ent/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgo/ent/entql"
-	"github.com/briancabbott/entgo/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entql"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // schemaGraph holds a representation of ent/schema at runtime.

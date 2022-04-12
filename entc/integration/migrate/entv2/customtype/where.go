@@ -9,7 +9,7 @@ package customtype
 import (
 	"time"
 
-	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/dialect/sql"
 	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/predicate"
 )
 

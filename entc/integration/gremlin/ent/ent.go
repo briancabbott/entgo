@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/briancabbott/entgo"
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/dialect/gremlin"
 	"github.com/briancabbott/entgo/dialect/gremlin/encoding/graphson"
 	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl"

@@ -9,7 +9,7 @@ package ent
 import (
 	"context"
 
-	"github.com/briancabbott/entgo"
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/dialect"
 	"github.com/briancabbott/entgo/entc/integration/multischema/ent/internal"
 )

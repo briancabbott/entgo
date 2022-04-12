@@ -18,7 +18,7 @@ import (
 	"github.com/briancabbott/entgo/entc/integration/privacy/ent/user"
 	"github.com/google/uuid"
 
-	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/ent"
 )
 
 const (
