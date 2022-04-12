@@ -5,8 +5,8 @@
 package failure
 
 import (
-	"entgo.io/ent"
-	"entgo.io/ent/schema/edge"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/schema/edge"
 )
 
 type User struct {

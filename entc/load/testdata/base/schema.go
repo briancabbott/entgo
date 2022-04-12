@@ -5,8 +5,8 @@
 package base
 
 import (
-	"entgo.io/ent"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // base schema for sharing fields and edges.

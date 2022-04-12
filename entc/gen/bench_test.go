@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"entgo.io/ent/entc"
-	"entgo.io/ent/entc/gen"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/gen"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 	"github.com/stretchr/testify/require"
 )
 
@@ -25,7 +25,7 @@ func BenchmarkGraph_Gen(b *testing.B) {
 		Storage: storage,
 		IDType:  &field.TypeInfo{Type: field.TypeInt},
 		Target:  target,
-		Package: "entgo.io/ent/entc/integration/ent",
+		Package: "github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent",
 		Templates: []*gen.Template{
 			gen.MustParse(gen.NewTemplate("template").
 				Funcs(gen.Funcs).

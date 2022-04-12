@@ -7,8 +7,8 @@ package gen
 import (
 	"testing"
 
-	"entgo.io/ent/entc/load"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/entc/load"
+	"github.com/briancabbott/entgo/schema/field"
 
 	"github.com/stretchr/testify/require"
 )

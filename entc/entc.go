@@ -15,11 +15,11 @@ import (
 	"reflect"
 	"strings"
 
-	"entgo.io/ent/entc/gen"
-	"entgo.io/ent/entc/internal"
-	"entgo.io/ent/entc/load"
-	"entgo.io/ent/schema"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/entc/gen"
+	"github.com/briancabbott/entgo/entc/internal"
+	"github.com/briancabbott/entgo/entc/load"
+	"github.com/briancabbott/entgo/schema"
+	"github.com/briancabbott/entgo/schema/field"
 
 	"golang.org/x/tools/go/packages"
 )

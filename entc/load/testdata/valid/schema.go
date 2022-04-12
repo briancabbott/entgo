@@ -5,8 +5,8 @@
 package valid
 
 import (
-	"entgo.io/ent"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 // User holds the user schema.

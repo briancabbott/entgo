@@ -22,7 +22,7 @@ import (
 	"text/template"
 	"time"
 
-	"entgo.io/ent"
+	"github.com/briancabbott/entgo"
 
 	"golang.org/x/tools/go/packages"
 )

@@ -13,12 +13,12 @@ import (
 	"testing"
 	"time"
 
-	"entgo.io/ent"
-	"entgo.io/ent/schema"
-	"entgo.io/ent/schema/edge"
-	"entgo.io/ent/schema/field"
-	"entgo.io/ent/schema/index"
-	"entgo.io/ent/schema/mixin"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/schema"
+	"github.com/briancabbott/entgo/schema/edge"
+	"github.com/briancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/schema/index"
+	"github.com/briancabbott/entgo/schema/mixin"
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"

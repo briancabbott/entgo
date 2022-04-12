@@ -11,8 +11,8 @@ import (
 	"os"
 	"strings"
 
-	"entgo.io/ent/entc/gen"
-	"entgo.io/ent/entc/load"
+	"github.com/briancabbott/entgo/entc/gen"
+	"github.com/briancabbott/entgo/entc/load"
 )
 
 // Snapshot describes the schema snapshot restore.
