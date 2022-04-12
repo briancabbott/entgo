@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/entc/integration/ent/schema/task"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/ent/schema/task"
 
-	enttask "entgo.io/ent/entc/integration/ent/task"
+	enttask "github.com/briancabbott/entgo/entc/integration/ent/task"
 )
 
 // Task is the model entity for the Task schema.

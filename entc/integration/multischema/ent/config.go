@@ -9,9 +9,9 @@ package ent
 import (
 	"context"
 
-	"entgo.io/ent"
-	"entgo.io/ent/dialect"
-	"entgo.io/ent/entc/integration/multischema/ent/internal"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/internal"
 )
 
 // Option function to configure the client.

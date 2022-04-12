@@ -11,12 +11,12 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/edgefield/ent/car"
-	"entgo.io/ent/entc/integration/edgefield/ent/predicate"
-	"entgo.io/ent/entc/integration/edgefield/ent/rental"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/car"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/predicate"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/rental"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 // CarUpdate is the builder for updating Car entities.

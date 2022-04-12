@@ -5,10 +5,10 @@
 package schema
 
 import (
-	"entgo.io/ent"
-	"entgo.io/ent/dialect"
-	"entgo.io/ent/entc/integration/customid/sid"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/entc/integration/customid/sid"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // Other holds the schema definition for the Other entity.

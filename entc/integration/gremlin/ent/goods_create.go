@@ -10,10 +10,10 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/ent/dialect/gremlin"
-	"entgo.io/ent/dialect/gremlin/graph/dsl"
-	"entgo.io/ent/dialect/gremlin/graph/dsl/g"
-	"entgo.io/ent/entc/integration/gremlin/ent/goods"
+	"github.com/briancabbott/entgo/dialect/gremlin"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl/g"
+	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/goods"
 )
 
 // GoodsCreate is the builder for creating a Goods entity.

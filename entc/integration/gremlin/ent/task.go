@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/ent/dialect/gremlin"
-	"entgo.io/ent/entc/integration/ent/schema/task"
+	"github.com/briancabbott/entgo/dialect/gremlin"
+	"github.com/briancabbott/entgo/entc/integration/ent/schema/task"
 )
 
 // Task is the model entity for the Task schema.

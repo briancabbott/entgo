@@ -16,11 +16,11 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/ent"
-	"entgo.io/ent/dialect"
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/entc/integration/ent/role"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/ent/role"
+	"github.com/briancabbott/entgo/schema/field"
 
 	"github.com/google/uuid"
 )

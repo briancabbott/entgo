@@ -10,10 +10,10 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/edgefield/ent/car"
-	"entgo.io/ent/entc/integration/edgefield/ent/rental"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/car"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/rental"
+	"github.com/briancabbott/entgo/schema/field"
 	"github.com/google/uuid"
 )
 

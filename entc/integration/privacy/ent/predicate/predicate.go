@@ -7,7 +7,7 @@
 package predicate
 
 import (
-	"entgo.io/ent/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
 )
 
 // Task is the predicate function for task builders.

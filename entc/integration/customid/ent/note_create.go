@@ -11,12 +11,12 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect"
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/customid/ent/note"
-	"entgo.io/ent/entc/integration/customid/ent/schema"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/customid/ent/note"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/customid/ent/schema"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 // NoteCreate is the builder for creating a Note entity.

@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/migrate/entv2/customtype"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/customtype"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // CustomTypeCreate is the builder for creating a CustomType entity.

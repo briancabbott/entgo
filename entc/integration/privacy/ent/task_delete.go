@@ -10,11 +10,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/privacy/ent/predicate"
-	"entgo.io/ent/entc/integration/privacy/ent/task"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/privacy/ent/predicate"
+	"github.com/briancabbott/entgo/entc/integration/privacy/ent/task"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // TaskDelete is the builder for deleting a Task entity.

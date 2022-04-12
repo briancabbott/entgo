@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/entc/integration/edgefield/ent/node"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/node"
 )
 
 // Node is the model entity for the Node schema.

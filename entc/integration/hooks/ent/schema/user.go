@@ -9,13 +9,13 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/entc/integration/hooks/ent/user"
+	"github.com/briancabbott/entgo/entc/integration/hooks/ent/user"
 
-	"entgo.io/ent"
-	"entgo.io/ent/entc/integration/hooks/ent/hook"
-	"entgo.io/ent/schema/edge"
-	"entgo.io/ent/schema/field"
-	"entgo.io/ent/schema/mixin"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/entc/integration/hooks/ent/hook"
+	"github.com/briancabbott/entgo/schema/edge"
+	"github.com/briancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/schema/mixin"
 )
 
 // User holds the schema definition for the User entity.

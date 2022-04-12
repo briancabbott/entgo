@@ -11,11 +11,11 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/ent/card"
-	"entgo.io/ent/entc/integration/ent/spec"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/ent/card"
+	"github.com/briancabbott/entgo/entc/integration/ent/spec"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // SpecCreate is the builder for creating a Spec entity.

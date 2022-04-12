@@ -8,9 +8,9 @@ import (
 	"context"
 	"testing"
 
-	"entgo.io/ent/entc/integration/idtype/ent"
-	"entgo.io/ent/entc/integration/idtype/ent/migrate"
-	"entgo.io/ent/entc/integration/idtype/ent/user"
+	"github.com/briancabbott/entgo/entc/integration/idtype/ent"
+	"github.com/briancabbott/entgo/entc/integration/idtype/ent/migrate"
+	"github.com/briancabbott/entgo/entc/integration/idtype/ent/user"
 
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"

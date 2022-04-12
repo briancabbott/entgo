@@ -12,12 +12,12 @@ import (
 	"fmt"
 	"sync"
 
-	"entgo.io/ent/entc/integration/multischema/ent/group"
-	"entgo.io/ent/entc/integration/multischema/ent/pet"
-	"entgo.io/ent/entc/integration/multischema/ent/predicate"
-	"entgo.io/ent/entc/integration/multischema/ent/user"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/group"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/pet"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/predicate"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/user"
 
-	"entgo.io/ent"
+	"github.com/briancabbott/entgo"
 )
 
 const (

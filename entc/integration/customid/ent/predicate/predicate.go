@@ -7,7 +7,7 @@
 package predicate
 
 import (
-	"entgo.io/ent/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // Account is the predicate function for account builders.

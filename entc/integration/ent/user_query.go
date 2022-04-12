@@ -12,16 +12,16 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/ent/dialect"
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/ent/card"
-	"entgo.io/ent/entc/integration/ent/file"
-	"entgo.io/ent/entc/integration/ent/group"
-	"entgo.io/ent/entc/integration/ent/pet"
-	"entgo.io/ent/entc/integration/ent/predicate"
-	"entgo.io/ent/entc/integration/ent/user"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/card"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/file"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/group"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/pet"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/predicate"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/user"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 // UserQuery is the builder for querying User entities.

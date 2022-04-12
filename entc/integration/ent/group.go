@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/entc/integration/ent/group"
-	"entgo.io/ent/entc/integration/ent/groupinfo"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/ent/group"
+	"github.com/briancabbott/entgo/entc/integration/ent/groupinfo"
 )
 
 // Group is the model entity for the Group schema.

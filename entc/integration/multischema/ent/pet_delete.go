@@ -10,12 +10,12 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/multischema/ent/internal"
-	"entgo.io/ent/entc/integration/multischema/ent/pet"
-	"entgo.io/ent/entc/integration/multischema/ent/predicate"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/internal"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/pet"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/predicate"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // PetDelete is the builder for deleting a Pet entity.

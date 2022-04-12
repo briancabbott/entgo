@@ -7,10 +7,10 @@
 package ent
 
 import (
-	"entgo.io/ent/entc/integration/multischema/ent/group"
-	"entgo.io/ent/entc/integration/multischema/ent/pet"
-	"entgo.io/ent/entc/integration/multischema/ent/schema"
-	"entgo.io/ent/entc/integration/multischema/ent/user"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/group"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/pet"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/schema"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/user"
 )
 
 // The init function reads all schema descriptors with runtime code

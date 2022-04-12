@@ -12,13 +12,13 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/ent/dialect/gremlin"
-	"entgo.io/ent/dialect/gremlin/graph/dsl"
-	"entgo.io/ent/dialect/gremlin/graph/dsl/__"
-	"entgo.io/ent/dialect/gremlin/graph/dsl/g"
-	"entgo.io/ent/dialect/gremlin/graph/dsl/p"
-	"entgo.io/ent/entc/integration/gremlin/ent/group"
-	"entgo.io/ent/entc/integration/gremlin/ent/user"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl/__"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl/g"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl/p"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/gremlin/ent/group"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/gremlin/ent/user"
 )
 
 // GroupCreate is the builder for creating a Group entity.

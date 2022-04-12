@@ -5,10 +5,10 @@
 package schema
 
 import (
-	"entgo.io/ent"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/schema/field"
 
-	"entgo.io/ent/entc/integration/ent/schema/task"
+	"github.com/briancabbott/entgo/entc/integration/ent/schema/task"
 )
 
 // Task holds the schema definition for the Task entity.

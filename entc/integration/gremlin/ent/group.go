@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/ent/dialect/gremlin"
-	"entgo.io/ent/entc/integration/gremlin/ent/groupinfo"
+	"github.com/briancabbott/entgo/dialect/gremlin"
+	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/groupinfo"
 )
 
 // Group is the model entity for the Group schema.

@@ -11,12 +11,12 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/ent/entc/integration/json/ent/migrate"
+	"github.com/briancabbott/entgo/entc/integration/json/ent/migrate"
 
-	"entgo.io/ent/entc/integration/json/ent/user"
+	"github.com/briancabbott/entgo/entc/integration/json/ent/user"
 
-	"entgo.io/ent/dialect"
-	"entgo.io/ent/dialect/sql"
+	"github.com/briancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // Client is the client that holds all ent builders.

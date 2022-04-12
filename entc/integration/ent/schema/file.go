@@ -7,11 +7,11 @@ package schema
 import (
 	"math"
 
-	"entgo.io/ent"
-	"entgo.io/ent/schema"
-	"entgo.io/ent/schema/edge"
-	"entgo.io/ent/schema/field"
-	"entgo.io/ent/schema/index"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/schema"
+	"github.com/briancabbott/entgo/schema/edge"
+	"github.com/briancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/schema/index"
 )
 
 // File holds the schema definition for the File entity.

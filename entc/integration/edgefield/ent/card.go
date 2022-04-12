@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/entc/integration/edgefield/ent/card"
-	"entgo.io/ent/entc/integration/edgefield/ent/user"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/card"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/user"
 )
 
 // Card is the model entity for the Card schema.

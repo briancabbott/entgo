@@ -11,12 +11,12 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent"
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/template/ent/group"
-	"entgo.io/ent/entc/integration/template/ent/pet"
-	"entgo.io/ent/entc/integration/template/ent/user"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/template/ent/group"
+	"github.com/briancabbott/entgo/entc/integration/template/ent/pet"
+	"github.com/briancabbott/entgo/entc/integration/template/ent/user"
 )
 
 // ent aliases to avoid import conflicts in user's code.

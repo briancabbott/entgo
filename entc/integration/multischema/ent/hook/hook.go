@@ -10,7 +10,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/ent/entc/integration/multischema/ent"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent"
 )
 
 // The GroupFunc type is an adapter to allow the use of ordinary

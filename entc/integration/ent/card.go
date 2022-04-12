@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/entc/integration/ent/card"
-	"entgo.io/ent/entc/integration/ent/user"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/ent/card"
+	"github.com/briancabbott/entgo/entc/integration/ent/user"
 )
 
 // Card is the model entity for the Card schema.

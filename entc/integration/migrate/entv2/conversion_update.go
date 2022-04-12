@@ -11,11 +11,11 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/migrate/entv2/conversion"
-	"entgo.io/ent/entc/integration/migrate/entv2/predicate"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/entv2/conversion"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/entv2/predicate"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 // ConversionUpdate is the builder for updating Conversion entities.

@@ -10,7 +10,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/ent/entc/integration/ent"
+	"github.com/briancabbott/entgo/entc/integration/ent"
 )
 
 // The CardFunc type is an adapter to allow the use of ordinary

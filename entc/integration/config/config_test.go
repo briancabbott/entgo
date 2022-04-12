@@ -15,11 +15,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"entgo.io/ent/dialect/entsql"
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/entc/integration/config/ent"
-	"entgo.io/ent/entc/integration/config/ent/migrate"
-	"entgo.io/ent/entc/integration/config/ent/schema"
+	"github.com/briancabbott/entgo/dialect/entsql"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/config/ent"
+	"github.com/briancabbott/entgo/entc/integration/config/ent/migrate"
+	"github.com/briancabbott/entgo/entc/integration/config/ent/schema"
 
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/mattn/go-sqlite3"

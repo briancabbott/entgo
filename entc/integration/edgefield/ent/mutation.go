@@ -14,19 +14,19 @@ import (
 	"sync"
 	"time"
 
-	"entgo.io/ent/entc/integration/edgefield/ent/car"
-	"entgo.io/ent/entc/integration/edgefield/ent/card"
-	"entgo.io/ent/entc/integration/edgefield/ent/info"
-	"entgo.io/ent/entc/integration/edgefield/ent/metadata"
-	"entgo.io/ent/entc/integration/edgefield/ent/node"
-	"entgo.io/ent/entc/integration/edgefield/ent/pet"
-	"entgo.io/ent/entc/integration/edgefield/ent/post"
-	"entgo.io/ent/entc/integration/edgefield/ent/predicate"
-	"entgo.io/ent/entc/integration/edgefield/ent/rental"
-	"entgo.io/ent/entc/integration/edgefield/ent/user"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/car"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/card"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/info"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/metadata"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/node"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/pet"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/post"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/predicate"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/rental"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/user"
 	"github.com/google/uuid"
 
-	"entgo.io/ent"
+	"github.com/briancabbott/entgo"
 )
 
 const (

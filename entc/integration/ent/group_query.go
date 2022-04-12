@@ -12,15 +12,15 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/ent/dialect"
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/ent/file"
-	"entgo.io/ent/entc/integration/ent/group"
-	"entgo.io/ent/entc/integration/ent/groupinfo"
-	"entgo.io/ent/entc/integration/ent/predicate"
-	"entgo.io/ent/entc/integration/ent/user"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/ent/file"
+	"github.com/briancabbott/entgo/entc/integration/ent/group"
+	"github.com/briancabbott/entgo/entc/integration/ent/groupinfo"
+	"github.com/briancabbott/entgo/entc/integration/ent/predicate"
+	"github.com/briancabbott/entgo/entc/integration/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // GroupQuery is the builder for querying Group entities.

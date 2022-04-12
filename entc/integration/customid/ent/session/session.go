@@ -7,7 +7,7 @@
 package session
 
 import (
-	"entgo.io/ent/entc/integration/customid/ent/schema"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/schema"
 )
 
 const (

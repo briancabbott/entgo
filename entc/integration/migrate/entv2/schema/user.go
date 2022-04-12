@@ -7,15 +7,15 @@ package schema
 import (
 	"time"
 
-	"entgo.io/ent/schema"
+	"github.com/briancabbott/entgo/schema"
 
-	"entgo.io/ent"
-	"entgo.io/ent/dialect"
-	"entgo.io/ent/dialect/entsql"
-	"entgo.io/ent/schema/edge"
-	"entgo.io/ent/schema/field"
-	"entgo.io/ent/schema/index"
-	"entgo.io/ent/schema/mixin"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/dialect/entsql"
+	"github.com/briancabbott/entgo/schema/edge"
+	"github.com/briancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/schema/index"
+	"github.com/briancabbott/entgo/schema/mixin"
 )
 
 type Mixin struct {

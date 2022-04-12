@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/ent/dialect/gremlin"
+	"github.com/briancabbott/entgo/dialect/gremlin"
 )
 
 // Comment is the model entity for the Comment schema.

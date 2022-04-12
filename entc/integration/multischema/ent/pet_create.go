@@ -11,10 +11,10 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/multischema/ent/pet"
-	"entgo.io/ent/entc/integration/multischema/ent/user"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/pet"
+	"github.com/briancabbott/entgo/entc/integration/multischema/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // PetCreate is the builder for creating a Pet entity.

@@ -5,9 +5,9 @@
 package schema
 
 import (
-	"entgo.io/ent"
-	"entgo.io/ent/schema/edge"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/schema/edge"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // GroupInfo holds the schema for the group-info entity.

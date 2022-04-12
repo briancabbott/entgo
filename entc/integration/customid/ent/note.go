@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/entc/integration/customid/ent/note"
-	"entgo.io/ent/entc/integration/customid/ent/schema"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/note"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/schema"
 )
 
 // Note is the model entity for the Note schema.

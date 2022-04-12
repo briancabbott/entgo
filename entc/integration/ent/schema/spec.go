@@ -5,8 +5,8 @@
 package schema
 
 import (
-	"entgo.io/ent"
-	"entgo.io/ent/schema/edge"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/schema/edge"
 )
 
 type Spec struct {

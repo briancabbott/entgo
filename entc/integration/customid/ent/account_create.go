@@ -11,13 +11,13 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect"
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/customid/ent/account"
-	"entgo.io/ent/entc/integration/customid/ent/token"
-	"entgo.io/ent/entc/integration/customid/sid"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/account"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/token"
+	"github.com/briancabbott/entgo/entc/integration/customid/sid"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // AccountCreate is the builder for creating a Account entity.

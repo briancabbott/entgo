@@ -12,11 +12,11 @@ import (
 	"fmt"
 	"sync"
 
-	"entgo.io/ent/entc/integration/migrate/versioned/car"
-	"entgo.io/ent/entc/integration/migrate/versioned/predicate"
-	"entgo.io/ent/entc/integration/migrate/versioned/user"
+	"github.com/briancabbott/entgo/entc/integration/migrate/versioned/car"
+	"github.com/briancabbott/entgo/entc/integration/migrate/versioned/predicate"
+	"github.com/briancabbott/entgo/entc/integration/migrate/versioned/user"
 
-	"entgo.io/ent"
+	"github.com/briancabbott/entgo"
 )
 
 const (

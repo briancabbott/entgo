@@ -13,15 +13,15 @@ import (
 	"sync"
 	"time"
 
-	"entgo.io/ent/entc/integration/migrate/entv2/car"
-	"entgo.io/ent/entc/integration/migrate/entv2/conversion"
-	"entgo.io/ent/entc/integration/migrate/entv2/customtype"
-	"entgo.io/ent/entc/integration/migrate/entv2/media"
-	"entgo.io/ent/entc/integration/migrate/entv2/pet"
-	"entgo.io/ent/entc/integration/migrate/entv2/predicate"
-	"entgo.io/ent/entc/integration/migrate/entv2/user"
+	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/car"
+	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/conversion"
+	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/customtype"
+	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/media"
+	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/pet"
+	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/predicate"
+	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/user"
 
-	"entgo.io/ent"
+	"github.com/briancabbott/entgo"
 )
 
 const (

@@ -5,11 +5,11 @@
 package schema
 
 import (
-	"entgo.io/ent"
-	"entgo.io/ent/entc/integration/privacy/ent/privacy"
-	"entgo.io/ent/entc/integration/privacy/rule"
-	"entgo.io/ent/schema/edge"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/privacy/ent/privacy"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/privacy/rule"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/edge"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 // User defines the schema of a user.

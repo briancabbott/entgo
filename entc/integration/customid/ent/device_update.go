@@ -11,13 +11,13 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/customid/ent/device"
-	"entgo.io/ent/entc/integration/customid/ent/predicate"
-	"entgo.io/ent/entc/integration/customid/ent/schema"
-	"entgo.io/ent/entc/integration/customid/ent/session"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/device"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/predicate"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/schema"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/session"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // DeviceUpdate is the builder for updating Device entities.

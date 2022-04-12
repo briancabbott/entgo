@@ -9,11 +9,11 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/ent/entc/integration/ent"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent"
 	// required by schema hooks.
-	_ "entgo.io/ent/entc/integration/ent/runtime"
+	_ "github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/runtime"
 
-	"entgo.io/ent/dialect/sql/schema"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/schema"
 )
 
 type (

@@ -5,8 +5,8 @@
 package schema
 
 import (
-	"entgo.io/ent"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/schema/field"
 
 	"github.com/google/uuid"
 )

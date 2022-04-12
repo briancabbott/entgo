@@ -7,7 +7,7 @@
 package predicate
 
 import (
-	"entgo.io/ent/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // Comment is the predicate function for comment builders.

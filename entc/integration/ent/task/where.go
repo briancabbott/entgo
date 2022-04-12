@@ -7,9 +7,9 @@
 package enttask
 
 import (
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/entc/integration/ent/predicate"
-	"entgo.io/ent/entc/integration/ent/schema/task"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/ent/predicate"
+	"github.com/briancabbott/entgo/entc/integration/ent/schema/task"
 )
 
 // ID filters vertices based on their ID field.

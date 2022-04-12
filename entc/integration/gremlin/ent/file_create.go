@@ -11,14 +11,14 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect/gremlin"
-	"entgo.io/ent/dialect/gremlin/graph/dsl"
-	"entgo.io/ent/dialect/gremlin/graph/dsl/__"
-	"entgo.io/ent/dialect/gremlin/graph/dsl/g"
-	"entgo.io/ent/dialect/gremlin/graph/dsl/p"
-	"entgo.io/ent/entc/integration/gremlin/ent/file"
-	"entgo.io/ent/entc/integration/gremlin/ent/filetype"
-	"entgo.io/ent/entc/integration/gremlin/ent/user"
+	"github.com/briancabbott/entgo/dialect/gremlin"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl/__"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl/g"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl/p"
+	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/file"
+	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/filetype"
+	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/user"
 )
 
 // FileCreate is the builder for creating a File entity.

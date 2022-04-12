@@ -11,16 +11,16 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/edgefield/ent/card"
-	"entgo.io/ent/entc/integration/edgefield/ent/info"
-	"entgo.io/ent/entc/integration/edgefield/ent/metadata"
-	"entgo.io/ent/entc/integration/edgefield/ent/pet"
-	"entgo.io/ent/entc/integration/edgefield/ent/predicate"
-	"entgo.io/ent/entc/integration/edgefield/ent/rental"
-	"entgo.io/ent/entc/integration/edgefield/ent/user"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/card"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/info"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/metadata"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/pet"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/predicate"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/rental"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // UserUpdate is the builder for updating User entities.

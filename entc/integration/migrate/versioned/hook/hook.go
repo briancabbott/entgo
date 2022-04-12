@@ -10,7 +10,7 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/ent/entc/integration/migrate/versioned"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/versioned"
 )
 
 // The CarFunc type is an adapter to allow the use of ordinary

@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/entc/integration/customid/ent/account"
-	"entgo.io/ent/entc/integration/customid/ent/token"
-	"entgo.io/ent/entc/integration/customid/sid"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/account"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/token"
+	"github.com/briancabbott/entgo/entc/integration/customid/sid"
 )
 
 // Token is the model entity for the Token schema.

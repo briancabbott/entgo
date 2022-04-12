@@ -10,13 +10,13 @@ import (
 	"context"
 	"math"
 
-	"entgo.io/ent/dialect/gremlin"
-	"entgo.io/ent/dialect/gremlin/graph/dsl"
-	"entgo.io/ent/dialect/gremlin/graph/dsl/__"
-	"entgo.io/ent/dialect/gremlin/graph/dsl/g"
-	"entgo.io/ent/entc/integration/gremlin/ent/group"
-	"entgo.io/ent/entc/integration/gremlin/ent/predicate"
-	"entgo.io/ent/entc/integration/gremlin/ent/user"
+	"github.com/briancabbott/entgo/dialect/gremlin"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl/__"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl/g"
+	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/group"
+	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/predicate"
+	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/user"
 )
 
 // GroupQuery is the builder for querying Group entities.

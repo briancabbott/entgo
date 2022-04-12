@@ -11,13 +11,13 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent"
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/migrate/entv1/car"
-	"entgo.io/ent/entc/integration/migrate/entv1/conversion"
-	"entgo.io/ent/entc/integration/migrate/entv1/customtype"
-	"entgo.io/ent/entc/integration/migrate/entv1/user"
+	"github.com/briancabbott/entgoriancabbott/entgo"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/entv1/car"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/entv1/conversion"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/entv1/customtype"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/entv1/user"
 )
 
 // ent aliases to avoid import conflicts in user's code.

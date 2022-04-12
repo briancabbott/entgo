@@ -7,25 +7,25 @@
 package ent
 
 import (
-	"entgo.io/ent/entc/integration/customid/ent/account"
-	"entgo.io/ent/entc/integration/customid/ent/blob"
-	"entgo.io/ent/entc/integration/customid/ent/car"
-	"entgo.io/ent/entc/integration/customid/ent/device"
-	"entgo.io/ent/entc/integration/customid/ent/doc"
-	"entgo.io/ent/entc/integration/customid/ent/group"
-	"entgo.io/ent/entc/integration/customid/ent/mixinid"
-	"entgo.io/ent/entc/integration/customid/ent/note"
-	"entgo.io/ent/entc/integration/customid/ent/other"
-	"entgo.io/ent/entc/integration/customid/ent/pet"
-	"entgo.io/ent/entc/integration/customid/ent/predicate"
-	"entgo.io/ent/entc/integration/customid/ent/session"
-	"entgo.io/ent/entc/integration/customid/ent/token"
-	"entgo.io/ent/entc/integration/customid/ent/user"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/account"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/blob"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/car"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/device"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/doc"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/group"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/mixinid"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/note"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/other"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/pet"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/predicate"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/session"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/token"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/user"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entql"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entql"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // schemaGraph holds a representation of ent/schema at runtime.

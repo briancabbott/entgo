@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/entc/integration/cascadelete/ent/comment"
-	"entgo.io/ent/entc/integration/cascadelete/ent/post"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/cascadelete/ent/comment"
+	"github.com/briancabbott/entgo/entc/integration/cascadelete/ent/post"
 )
 
 // Comment is the model entity for the Comment schema.

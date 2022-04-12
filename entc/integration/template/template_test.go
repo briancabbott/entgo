@@ -10,12 +10,12 @@ import (
 	"reflect"
 	"testing"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/entc/integration/template/ent"
-	"entgo.io/ent/entc/integration/template/ent/hook"
-	"entgo.io/ent/entc/integration/template/ent/migrate"
-	"entgo.io/ent/entc/integration/template/ent/pet"
-	"entgo.io/ent/entc/integration/template/ent/user"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/template/ent"
+	"github.com/briancabbott/entgo/entc/integration/template/ent/hook"
+	"github.com/briancabbott/entgo/entc/integration/template/ent/migrate"
+	"github.com/briancabbott/entgo/entc/integration/template/ent/pet"
+	"github.com/briancabbott/entgo/entc/integration/template/ent/user"
 
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"

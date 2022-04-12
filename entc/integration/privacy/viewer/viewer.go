@@ -7,8 +7,8 @@ package viewer
 import (
 	"context"
 
-	"entgo.io/ent/entc/integration/privacy/ent"
-	"entgo.io/ent/entc/integration/privacy/ent/team"
+	"github.com/briancabbott/entgo/entc/integration/privacy/ent"
+	"github.com/briancabbott/entgo/entc/integration/privacy/ent/team"
 )
 
 // Role for viewer actions.

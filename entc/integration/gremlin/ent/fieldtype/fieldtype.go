@@ -13,8 +13,8 @@ import (
 	"net/http"
 	"time"
 
-	"entgo.io/ent/entc/integration/ent/role"
-	"entgo.io/ent/entc/integration/ent/schema"
+	"github.com/briancabbott/entgo/entc/integration/ent/role"
+	"github.com/briancabbott/entgo/entc/integration/ent/schema"
 )
 
 const (

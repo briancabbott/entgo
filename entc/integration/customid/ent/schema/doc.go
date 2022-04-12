@@ -8,9 +8,9 @@ import (
 	"database/sql/driver"
 	"fmt"
 
-	"entgo.io/ent"
-	"entgo.io/ent/schema/edge"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/schema/edge"
+	"github.com/briancabbott/entgo/schema/field"
 	"github.com/google/uuid"
 )
 

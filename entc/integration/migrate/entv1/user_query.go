@@ -12,12 +12,12 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/entc/integration/migrate/entv1/car"
-	"entgo.io/ent/entc/integration/migrate/entv1/predicate"
-	"entgo.io/ent/entc/integration/migrate/entv1/user"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/migrate/entv1/car"
+	"github.com/briancabbott/entgo/entc/integration/migrate/entv1/predicate"
+	"github.com/briancabbott/entgo/entc/integration/migrate/entv1/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // UserQuery is the builder for querying User entities.

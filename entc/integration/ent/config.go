@@ -11,8 +11,8 @@ import (
 	stdsql "database/sql"
 	"fmt"
 
-	"entgo.io/ent"
-	"entgo.io/ent/dialect"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/dialect"
 )
 
 // Option function to configure the client.

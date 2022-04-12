@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/ent/dialect/gremlin"
-	"entgo.io/ent/entc/integration/gremlin/ent/node"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin"
+	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/gremlin/ent/node"
 )
 
 // Node is the model entity for the Node schema.
