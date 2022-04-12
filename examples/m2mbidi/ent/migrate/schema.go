@@ -7,8 +7,8 @@
 package migrate
 
 import (
-	"github.com/briancabbottl/schema"
-	"github.com/briancabbottld"
+	"github.com/briancabbott/entgo/dialect/sql/schema"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 var (

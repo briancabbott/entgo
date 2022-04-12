@@ -15,7 +15,7 @@ import (
 	"github.com/briancabbott/entgo/examples/privacyadmin/ent/predicate"
 	"github.com/briancabbott/entgo/examples/privacyadmin/ent/user"
 
-	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/ent"
 )
 
 const (

@@ -17,7 +17,7 @@ import (
 	"github.com/briancabbott/entgo/examples/traversal/ent/predicate"
 	"github.com/briancabbott/entgo/examples/traversal/ent/user"
 
-	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/ent"
 )
 
 const (

@@ -12,6 +12,7 @@ import (
 	"fmt"
 	"sync"
 
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/entc/integration/customid/ent/account"
 	"github.com/briancabbott/entgo/entc/integration/customid/ent/blob"
 	"github.com/briancabbott/entgo/entc/integration/customid/ent/car"
@@ -28,8 +29,6 @@ import (
 	"github.com/briancabbott/entgo/entc/integration/customid/ent/user"
 	"github.com/briancabbott/entgo/entc/integration/customid/sid"
 	"github.com/google/uuid"
-
-	"github.com/briancabbott/entgo/ent"
 )
 
 const (

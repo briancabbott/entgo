@@ -12,7 +12,7 @@ import (
 	"github.com/briancabbott/entgo/examples/privacyadmin/ent/schema"
 	"github.com/briancabbott/entgo/examples/privacyadmin/ent/user"
 
-	"github.com/briancabbott/entgo"
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/privacy"
 )
 

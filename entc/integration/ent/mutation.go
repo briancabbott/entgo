@@ -15,6 +15,7 @@ import (
 	"sync"
 	"time"
 
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/dialect/sql"
 	"github.com/briancabbott/entgo/entc/integration/ent/card"
 	"github.com/briancabbott/entgo/entc/integration/ent/comment"
@@ -34,8 +35,6 @@ import (
 	enttask "github.com/briancabbott/entgo/entc/integration/ent/task"
 	"github.com/briancabbott/entgo/entc/integration/ent/user"
 	"github.com/google/uuid"
-
-	"github.com/briancabbott/entgo/ent"
 )
 
 const (

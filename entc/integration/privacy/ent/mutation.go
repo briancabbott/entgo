@@ -12,13 +12,12 @@ import (
 	"fmt"
 	"sync"
 
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/entc/integration/privacy/ent/predicate"
 	"github.com/briancabbott/entgo/entc/integration/privacy/ent/task"
 	"github.com/briancabbott/entgo/entc/integration/privacy/ent/team"
 	"github.com/briancabbott/entgo/entc/integration/privacy/ent/user"
 	"github.com/google/uuid"
-
-	"github.com/briancabbott/entgo/ent"
 )
 
 const (

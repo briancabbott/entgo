@@ -15,7 +15,7 @@ import (
 	"context"
 	"fmt"
 	"sync"
-
+        "github.com/briancabbott/entgo"
 	{{- range $n := $.Nodes }}
 		{{ $n.PackageAlias }} "{{ $.Config.Package }}/{{ $n.PackageDir }}"
 		{{- template "import/types" $n }}

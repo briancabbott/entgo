@@ -15,11 +15,10 @@ import (
 	"net/url"
 	"sync"
 
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/entc/integration/json/ent/predicate"
 	"github.com/briancabbott/entgo/entc/integration/json/ent/schema"
 	"github.com/briancabbott/entgo/entc/integration/json/ent/user"
-
-	"github.com/briancabbott/entgo/ent"
 )
 
 const (

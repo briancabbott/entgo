@@ -13,6 +13,7 @@ import (
 	"sync"
 	"time"
 
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/car"
 	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/conversion"
 	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/customtype"
@@ -20,8 +21,6 @@ import (
 	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/pet"
 	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/predicate"
 	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/user"
-
-	"github.com/briancabbott/entgo/ent"
 )
 
 const (

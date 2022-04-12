@@ -16,6 +16,7 @@ import (
 	"sync"
 	"time"
 
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/entc/integration/ent/role"
 	"github.com/briancabbott/entgo/entc/integration/ent/schema"
 	"github.com/briancabbott/entgo/entc/integration/ent/schema/task"
@@ -34,8 +35,6 @@ import (
 	enttask "github.com/briancabbott/entgo/entc/integration/gremlin/ent/task"
 	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/user"
 	"github.com/google/uuid"
-
-	"github.com/briancabbott/entgo/ent"
 )
 
 const (

@@ -12,12 +12,11 @@ import (
 	"fmt"
 	"sync"
 
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/entc/integration/cascadelete/ent/comment"
 	"github.com/briancabbott/entgo/entc/integration/cascadelete/ent/post"
 	"github.com/briancabbott/entgo/entc/integration/cascadelete/ent/predicate"
 	"github.com/briancabbott/entgo/entc/integration/cascadelete/ent/user"
-
-	"github.com/briancabbott/entgo/ent"
 )
 
 const (

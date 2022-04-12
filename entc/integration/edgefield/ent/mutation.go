@@ -14,6 +14,7 @@ import (
 	"sync"
 	"time"
 
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/car"
 	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/card"
 	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/info"
@@ -25,8 +26,6 @@ import (
 	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/rental"
 	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/user"
 	"github.com/google/uuid"
-
-	"github.com/briancabbott/entgo/ent"
 )
 
 const (
