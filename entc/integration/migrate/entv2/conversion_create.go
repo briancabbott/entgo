@@ -10,9 +10,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/entv2/conversion"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/conversion"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // ConversionCreate is the builder for creating a Conversion entity.

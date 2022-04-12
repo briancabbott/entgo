@@ -10,11 +10,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/card"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/predicate"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/ent/card"
+	"github.com/briancabbott/entgo/entc/integration/ent/predicate"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // CardDelete is the builder for deleting a Card entity.

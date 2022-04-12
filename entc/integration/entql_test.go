@@ -10,10 +10,10 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/pet"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/user"
-	"github.com/briancabbott/entgoriancabbott/entgo/entql"
+	"github.com/briancabbott/entgo/entc/integration/ent"
+	"github.com/briancabbott/entgo/entc/integration/ent/pet"
+	"github.com/briancabbott/entgo/entc/integration/ent/user"
+	"github.com/briancabbott/entgo/entql"
 
 	"github.com/stretchr/testify/require"
 )

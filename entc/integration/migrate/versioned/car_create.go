@@ -10,10 +10,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/versioned/car"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/versioned/user"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/migrate/versioned/car"
+	"github.com/briancabbott/entgo/entc/integration/migrate/versioned/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // CarCreate is the builder for creating a Car entity.

@@ -7,10 +7,10 @@
 package pet
 
 import (
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl/__"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl/p"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/gremlin/ent/predicate"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl/__"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl/p"
+	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/predicate"
 	"github.com/google/uuid"
 )
 

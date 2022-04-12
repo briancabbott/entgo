@@ -6,4 +6,4 @@
 
 package ent
 
-// The schema-stitching logic is generated in github.com/briancabbott/entgoriancabbott/entgo/entc/integration/hooks/ent/runtime/runtime.go
+// The schema-stitching logic is generated in github.com/briancabbott/entgo/entc/integration/hooks/ent/runtime/runtime.go

@@ -5,8 +5,8 @@
 package schema
 
 import (
-	"github.com/briancabbott/entgoriancabbott/entgo"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // Conversion holds the schema definition for the Conversion entity.

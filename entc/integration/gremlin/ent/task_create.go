@@ -11,12 +11,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl/g"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/schema/task"
+	"github.com/briancabbott/entgo/dialect/gremlin"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl/g"
+	"github.com/briancabbott/entgo/entc/integration/ent/schema/task"
 
-	enttask "github.com/briancabbott/entgoriancabbott/entgo/entc/integration/gremlin/ent/task"
+	enttask "github.com/briancabbott/entgo/entc/integration/gremlin/ent/task"
 )
 
 // TaskCreate is the builder for creating a Task entity.

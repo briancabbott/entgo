@@ -10,13 +10,13 @@ import (
 	"context"
 	"math"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl/__"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl/g"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/gremlin/ent/pet"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/gremlin/ent/predicate"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/gremlin/ent/user"
+	"github.com/briancabbott/entgo/dialect/gremlin"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl/__"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl/g"
+	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/pet"
+	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/predicate"
+	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/user"
 )
 
 // PetQuery is the builder for querying Pet entities.

@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/privacy/ent/team"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/privacy/ent/team"
 )
 
 // Team is the model entity for the Team schema.

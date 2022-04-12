@@ -12,11 +12,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/entv2/customtype"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/entv2/predicate"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbottl"
+	"github.com/briancabbottl/sqlgraph"
+	"github.com/briancabbottration/migrate/entv2/customtype"
+	"github.com/briancabbottration/migrate/entv2/predicate"
+	"github.com/briancabbottld"
 )
 
 // CustomTypeUpdate is the builder for updating CustomType entities.

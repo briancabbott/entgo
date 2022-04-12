@@ -11,10 +11,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgo"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/idtype/ent/user"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/idtype/ent/user"
 )
 
 // ent aliases to avoid import conflicts in user's code.

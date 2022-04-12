@@ -9,8 +9,8 @@ package ent
 import (
 	"net/http"
 
-	"github.com/briancabbott/entgoriancabbott/entgo"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect"
+	"github.com/briancabbott
+	"github.com/briancabbott
 )
 
 // Option function to configure the client.

@@ -7,8 +7,8 @@
 package versioned
 
 import (
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/versioned/schema"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/migrate/versioned/user"
+	"github.com/briancabbott/entgo/entc/integration/migrate/versioned/schema"
+	"github.com/briancabbott/entgo/entc/integration/migrate/versioned/user"
 )
 
 // The init function reads all schema descriptors with runtime code

@@ -7,8 +7,8 @@
 package goods
 
 import (
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/predicate"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

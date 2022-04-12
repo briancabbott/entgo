@@ -7,7 +7,7 @@
 package note
 
 import (
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/customid/ent/schema"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/schema"
 )
 
 const (

@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/customid/ent/account"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/customid/sid"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/account"
+	"github.com/briancabbott/entgo/entc/integration/customid/sid"
 )
 
 // Account is the model entity for the Account schema.

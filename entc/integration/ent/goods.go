@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/goods"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/ent/goods"
 )
 
 // Goods is the model entity for the Goods schema.

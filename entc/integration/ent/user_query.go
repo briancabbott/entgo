@@ -12,16 +12,16 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/card"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/file"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/group"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/pet"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/predicate"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/user"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/ent/card"
+	"github.com/briancabbott/entgo/entc/integration/ent/file"
+	"github.com/briancabbott/entgo/entc/integration/ent/group"
+	"github.com/briancabbott/entgo/entc/integration/ent/pet"
+	"github.com/briancabbott/entgo/entc/integration/ent/predicate"
+	"github.com/briancabbott/entgo/entc/integration/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // UserQuery is the builder for querying User entities.

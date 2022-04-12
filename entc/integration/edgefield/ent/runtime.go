@@ -9,11 +9,11 @@ package ent
 import (
 	"time"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/car"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/metadata"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/node"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/rental"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/schema"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/car"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/metadata"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/node"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/rental"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/schema"
 	"github.com/google/uuid"
 )
 

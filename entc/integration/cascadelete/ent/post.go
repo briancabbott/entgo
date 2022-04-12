@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/cascadelete/ent/post"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/cascadelete/ent/user"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/cascadelete/ent/post"
+	"github.com/briancabbott/entgo/entc/integration/cascadelete/ent/user"
 )
 
 // Post is the model entity for the Post schema.

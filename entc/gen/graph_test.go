@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/entc/load"
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/entc/load"
+	"github.com/briancabbott/entgo/schema/field"
 
 	"github.com/stretchr/testify/require"
 )

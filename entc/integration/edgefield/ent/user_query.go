@@ -12,16 +12,16 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/card"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/info"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/metadata"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/pet"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/predicate"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/rental"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/user"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/card"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/info"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/metadata"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/pet"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/predicate"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/rental"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // UserQuery is the builder for querying User entities.

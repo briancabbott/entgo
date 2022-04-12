@@ -10,7 +10,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/template/ent"
+	"github.com/briancabbott/entgo/entc/integration/template/ent"
 )
 
 // The GroupFunc type is an adapter to allow the use of ordinary

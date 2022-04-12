@@ -7,11 +7,11 @@
 package enttask
 
 import (
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl/__"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/gremlin/graph/dsl/p"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/ent/schema/task"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/gremlin/ent/predicate"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl/__"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph/dsl/p"
+	"github.com/briancabbott/entgo/entc/integration/ent/schema/task"
+	"github.com/briancabbott/entgo/entc/integration/gremlin/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

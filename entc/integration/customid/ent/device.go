@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/customid/ent/device"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/customid/ent/schema"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/customid/ent/session"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/device"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/schema"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/session"
 )
 
 // Device is the model entity for the Device schema.

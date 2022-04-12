@@ -14,10 +14,10 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/json/ent/schema"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/json/ent/user"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/json/ent/schema"
+	"github.com/briancabbott/entgo/entc/integration/json/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // UserCreate is the builder for creating a User entity.

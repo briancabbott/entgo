@@ -9,11 +9,11 @@ package enttest
 import (
 	"context"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent"
+	"github.com/briancabbott/entgo/entc/integration/edgefield/ent"
 	// required by schema hooks.
-	_ "github.com/briancabbott/entgoriancabbott/entgo/entc/integration/edgefield/ent/runtime"
+	_ "github.com/briancabbott/entgo/entc/integration/edgefield/ent/runtime"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/schema"
+	"github.com/briancabbott/entgo/dialect/sql/schema"
 )
 
 type (

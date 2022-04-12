@@ -10,11 +10,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/customid/ent/predicate"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/customid/ent/token"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/predicate"
+	"github.com/briancabbott/entgo/entc/integration/customid/ent/token"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // TokenDelete is the builder for deleting a Token entity.

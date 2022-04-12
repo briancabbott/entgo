@@ -11,11 +11,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/privacy/ent/task"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/privacy/ent/team"
-	"github.com/briancabbott/entgoriancabbott/entgo/entc/integration/privacy/ent/user"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entc/integration/privacy/ent/task"
+	"github.com/briancabbott/entgo/entc/integration/privacy/ent/team"
+	"github.com/briancabbott/entgo/entc/integration/privacy/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 	"github.com/google/uuid"
 )
 
