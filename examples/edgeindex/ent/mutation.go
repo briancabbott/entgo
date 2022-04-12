@@ -12,11 +12,10 @@ import (
 	"fmt"
 	"sync"
 
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/examples/edgeindex/ent/city"
 	"github.com/briancabbott/entgo/examples/edgeindex/ent/predicate"
 	"github.com/briancabbott/entgo/examples/edgeindex/ent/street"
-
-	"github.com/briancabbott/entgo/ent"
 )
 
 const (

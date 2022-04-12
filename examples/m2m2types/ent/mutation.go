@@ -12,11 +12,10 @@ import (
 	"fmt"
 	"sync"
 
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/examples/m2m2types/ent/group"
 	"github.com/briancabbott/entgo/examples/m2m2types/ent/predicate"
 	"github.com/briancabbott/entgo/examples/m2m2types/ent/user"
-
-	"github.com/briancabbott/entgo/ent"
 )
 
 const (

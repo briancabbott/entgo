@@ -13,11 +13,10 @@ import (
 	"sync"
 	"time"
 
+	ent "github.com/briancabbott/entgo"
 	"github.com/briancabbott/entgo/examples/o2o2types/ent/card"
 	"github.com/briancabbott/entgo/examples/o2o2types/ent/predicate"
 	"github.com/briancabbott/entgo/examples/o2o2types/ent/user"
-
-	"github.com/briancabbott/entgo/ent"
 )
 
 const (
