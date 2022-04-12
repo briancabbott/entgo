@@ -5,15 +5,15 @@ in the LICENSE file in the root directory of this source tree.
 */}}
 
 {{/* The line below tells Intellij/GoLand to enable the autocompletion based *gen.Graph type. */}}
-{{/* gotype: github.com/briancabbott/entgo/ent/entc/gen.Graph */}}
+{{/* gotype: github.com/briancabbott/entgo/entc/gen.Graph */}}
 
 {{ define "node" }}
 {{ $pkg := base $.Config.Package }}
 {{ template "header" $ }}
 
 import (
-	"github.com/briancabbott/entgo/ent/dialect/sql"
-	"github.com/briancabbott/entgo/ent/dialect/sql/schema"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/schema"
 
 	"golang.org/x/sync/semaphore"
 )
