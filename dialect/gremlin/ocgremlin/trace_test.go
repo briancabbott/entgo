@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"testing"
 
-	"entgo.io/ent/dialect/gremlin"
+	"github.com/briancabbott/entgo/dialect/gremlin"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

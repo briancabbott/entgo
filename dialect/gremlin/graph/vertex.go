@@ -7,7 +7,7 @@ package graph
 import (
 	"fmt"
 
-	"entgo.io/ent/dialect/gremlin/encoding/graphson"
+	"github.com/briancabbott/entgo/dialect/gremlin/encoding/graphson"
 )
 
 // Vertex represents a graph vertex.

@@ -7,7 +7,7 @@ package main
 import (
 	"log"
 
-	"entgo.io/ent/cmd/internal/base"
+	"github.com/briancabbott/entgo/cmd/internal/base"
 
 	"github.com/spf13/cobra"
 )

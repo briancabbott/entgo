@@ -8,8 +8,8 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect/gremlin/encoding/graphson"
-	"entgo.io/ent/dialect/gremlin/graph"
+	"github.com/briancabbott/entgo/dialect/gremlin/encoding/graphson"
+	"github.com/briancabbott/entgo/dialect/gremlin/graph"
 )
 
 // A Response models a response message received from the server.

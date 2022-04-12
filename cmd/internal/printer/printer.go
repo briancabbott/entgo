@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"entgo.io/ent/entc/gen"
+	"github.com/briancabbott/entgo/entc/gen"
 
 	"github.com/olekukonko/tablewriter"
 )

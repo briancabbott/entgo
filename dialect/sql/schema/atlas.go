@@ -15,9 +15,9 @@ import (
 	"ariga.io/atlas/sql/migrate"
 	"ariga.io/atlas/sql/schema"
 
-	"entgo.io/ent/dialect"
-	entsql "entgo.io/ent/dialect/sql"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/dialect"
+	entsql "github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 type (

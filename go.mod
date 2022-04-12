@@ -1,4 +1,4 @@
-module entgo.io/ent
+module github.com/briancabbott/entgo
 
 go 1.17
 

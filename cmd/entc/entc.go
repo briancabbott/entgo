@@ -10,8 +10,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"entgo.io/ent/cmd/internal/base"
-	"entgo.io/ent/entc/gen"
+	"github.com/briancabbott/entgo/cmd/internal/base"
+	"github.com/briancabbott/entgo/entc/gen"
 
 	"github.com/spf13/cobra"
 )

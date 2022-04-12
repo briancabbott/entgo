@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"entgo.io/ent/dialect/gremlin"
-	"entgo.io/ent/dialect/gremlin/encoding"
-	"entgo.io/ent/dialect/gremlin/encoding/graphson"
+	"github.com/briancabbott/entgo/dialect/gremlin"
+	"github.com/briancabbott/entgo/dialect/gremlin/encoding"
+	"github.com/briancabbott/entgo/dialect/gremlin/encoding/graphson"
 
 	"github.com/gorilla/websocket"
 	"golang.org/x/sync/errgroup"

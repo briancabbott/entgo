@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"entgo.io/ent/dialect/gremlin"
-	"entgo.io/ent/dialect/gremlin/encoding/graphson"
+	"github.com/briancabbott/entgo/dialect/gremlin"
+	"github.com/briancabbott/entgo/dialect/gremlin/encoding/graphson"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
