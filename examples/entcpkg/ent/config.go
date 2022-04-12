@@ -10,8 +10,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/briancabbott/entgoriancabbott/entgo"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/dialect"
 )
 
 // Option function to configure the client.

@@ -11,12 +11,12 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/start/ent/car"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/start/ent/predicate"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/start/ent/user"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbottl"
+	"github.com/briancabbottl/sqlgraph"
+	"github.com/briancabbotttart/ent/car"
+	"github.com/briancabbotttart/ent/predicate"
+	"github.com/briancabbotttart/ent/user"
+	"github.com/briancabbottld"
 )
 
 // CarQuery is the builder for querying Car entities.

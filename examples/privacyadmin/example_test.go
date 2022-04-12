@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacyadmin/viewer"
+	"github.com/briancabbott/entgo/examples/privacyadmin/viewer"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacyadmin/ent"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacyadmin/ent/privacy"
-	_ "github.com/briancabbott/entgoriancabbott/entgo/examples/privacyadmin/ent/runtime"
+	"github.com/briancabbott/entgo/examples/privacyadmin/ent"
+	"github.com/briancabbott/entgo/examples/privacyadmin/ent/privacy"
+	_ "github.com/briancabbott/entgo/examples/privacyadmin/ent/runtime"
 
 	_ "github.com/mattn/go-sqlite3"
 )

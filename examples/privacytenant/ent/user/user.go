@@ -7,7 +7,7 @@
 package user
 
 import (
-	"github.com/briancabbott/entgoriancabbott/entgo"
+	"github.com/briancabbott
 )
 
 const (
@@ -77,7 +77,7 @@ func ValidColumn(column string) bool {
 // package on the initialization of the application. Therefore,
 // it should be imported in the main as follows:
 //
-//	import _ "github.com/briancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/runtime"
+//	import _ "github.com/briancabbottrivacytenant/ent/runtime"
 //
 var (
 	Hooks  [1]ent.Hook

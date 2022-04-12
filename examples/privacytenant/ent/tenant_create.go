@@ -11,9 +11,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/tenant"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/examples/privacytenant/ent/tenant"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // TenantCreate is the builder for creating a Tenant entity.

@@ -7,15 +7,15 @@
 package ent
 
 import (
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/group"
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/predicate"
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/tenant"
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/user"
+	"github.com/briancabbott/entgo/examples/privacytenant/ent/group"
+	"github.com/briancabbott/entgo/examples/privacytenant/ent/predicate"
+	"github.com/briancabbott/entgo/examples/privacytenant/ent/tenant"
+	"github.com/briancabbott/entgo/examples/privacytenant/ent/user"
 
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/entql"
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/entql"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // schemaGraph holds a representation of ent/schema at runtime.

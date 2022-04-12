@@ -12,12 +12,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/group"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/pet"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/predicate"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/user"
+	"github.com/briancabbott/entgo/examples/traversal/ent/group"
+	"github.com/briancabbott/entgo/examples/traversal/ent/pet"
+	"github.com/briancabbott/entgo/examples/traversal/ent/predicate"
+	"github.com/briancabbott/entgo/examples/traversal/ent/user"
 
-	"github.com/briancabbott/entgoriancabbott/entgo"
+	"github.com/briancabbott/entgo"
 )
 
 const (

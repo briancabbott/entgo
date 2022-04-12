@@ -11,12 +11,12 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2m2types/ent/pet"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2m2types/ent/predicate"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2m2types/ent/user"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/examples/o2m2types/ent/pet"
+	"github.com/briancabbott/entgo/examples/o2m2types/ent/predicate"
+	"github.com/briancabbott/entgo/examples/o2m2types/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // PetQuery is the builder for querying Pet entities.

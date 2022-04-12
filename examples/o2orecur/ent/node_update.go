@@ -11,11 +11,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/examples/o2orecur/ent/node"
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/examples/o2orecur/ent/predicate"
-	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2orecur/ent/node"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2orecur/ent/predicate"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 // NodeUpdate is the builder for updating Node entities.

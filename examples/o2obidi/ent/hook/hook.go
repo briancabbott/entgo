@@ -10,7 +10,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2obidi/ent"
+	"github.com/briancabbott/entgo/examples/o2obidi/ent"
 )
 
 // The UserFunc type is an adapter to allow the use of ordinary

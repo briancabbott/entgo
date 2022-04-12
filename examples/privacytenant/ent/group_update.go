@@ -11,13 +11,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/group"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/predicate"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/tenant"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/user"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbottl"
+	"github.com/briancabbottl/sqlgraph"
+	"github.com/briancabbottrivacytenant/ent/group"
+	"github.com/briancabbottrivacytenant/ent/predicate"
+	"github.com/briancabbottrivacytenant/ent/tenant"
+	"github.com/briancabbottrivacytenant/ent/user"
+	"github.com/briancabbottld"
 )
 
 // GroupUpdate is the builder for updating Group entities.

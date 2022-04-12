@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/tenant"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/user"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/examples/privacytenant/ent/tenant"
+	"github.com/briancabbott/entgo/examples/privacytenant/ent/user"
 )
 
 // User is the model entity for the User schema.

@@ -9,11 +9,11 @@ package enttest
 import (
 	"context"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/m2mrecur/ent"
+	"github.com/briancabbott/entgo/examples/m2mrecur/ent"
 	// required by schema hooks.
-	_ "github.com/briancabbott/entgoriancabbott/entgo/examples/m2mrecur/ent/runtime"
+	_ "github.com/briancabbott/entgo/examples/m2mrecur/ent/runtime"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/schema"
+	"github.com/briancabbott/entgo/dialect/sql/schema"
 )
 
 type (

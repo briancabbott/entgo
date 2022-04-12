@@ -11,13 +11,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/start/ent/car"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/start/ent/group"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/start/ent/predicate"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/start/ent/user"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/examples/start/ent/car"
+	"github.com/briancabbott/entgo/examples/start/ent/group"
+	"github.com/briancabbott/entgo/examples/start/ent/predicate"
+	"github.com/briancabbott/entgo/examples/start/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // UserUpdate is the builder for updating User entities.

@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2o2types/ent/card"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2o2types/ent/user"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/examples/o2o2types/ent/card"
+	"github.com/briancabbott/entgo/examples/o2o2types/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // CardCreate is the builder for creating a Card entity.

@@ -11,10 +11,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/group"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/user"
-	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/examples/traversal/ent/group"
+	"github.com/briancabbott/entgo/examples/traversal/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // GroupCreate is the builder for creating a Group entity.

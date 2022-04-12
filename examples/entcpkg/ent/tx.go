@@ -10,7 +10,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/dialect"
 )
 
 // Tx is a transactional client that is created by calling Client.Tx().

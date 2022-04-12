@@ -7,8 +7,8 @@ package rule
 import (
 	"context"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacyadmin/ent/privacy"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacyadmin/viewer"
+	"github.com/briancabbott/entgo/examples/privacyadmin/ent/privacy"
+	"github.com/briancabbott/entgo/examples/privacyadmin/viewer"
 )
 
 // DenyIfNoViewer is a rule that returns deny decision if the viewer is missing in the context.

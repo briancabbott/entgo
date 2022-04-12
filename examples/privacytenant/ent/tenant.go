@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/tenant"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/examples/privacytenant/ent/tenant"
 )
 
 // Tenant is the model entity for the Tenant schema.

@@ -7,7 +7,7 @@
 package predicate
 
 import (
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // Group is the predicate function for group builders.

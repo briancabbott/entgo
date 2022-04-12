@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2o2types/ent/card"
-	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2o2types/ent/user"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/examples/o2o2types/ent/card"
+	"github.com/briancabbott/entgo/examples/o2o2types/ent/user"
 )
 
 // User is the model entity for the User schema.
