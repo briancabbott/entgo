@@ -226,7 +226,7 @@ func fileExists(target, name string) bool {
 var tmpl = template.Must(template.New("schema").
 	Parse(`package schema
 
-import "entgo.io/ent"
+import "github.com/briancabbott/entgo"
 
 // {{ . }} holds the schema definition for the {{ . }} entity.
 type {{ . }} struct {
@@ -248,7 +248,7 @@ const (
 	// default schema package path.
 	defaultSchema = "ent/schema"
 	// ent/generate.go file used for "go generate" command.
-	genFile = "package ent\n\n//go:generate go run -mod=mod entgo.io/ent/cmd/ent generate ./schema\n"
+	genFile = "package ent\n\n//go:generate go run -mod=mod github.com/briancabbott/entgo/cmd/ent generate ./schema\n"
 )
 
 // examples formats the given examples to the cli.

@@ -30,11 +30,11 @@ func main() {
 func migrate(c *gen.Config) {
 	var (
 		target = filepath.Join(c.Target, "generate.go")
-		oldCmd = []byte("entgo.io/ent/cmd/entc")
+		oldCmd = []byte("github.com/briancabbott/entgo/cmd/entc")
 	)
 	buf, err := os.ReadFile(target)
 	if err != nil || !bytes.Contains(buf, oldCmd) {
 		return
 	}
-	_ = os.WriteFile(target, bytes.ReplaceAll(buf, oldCmd, []byte("entgo.io/ent/cmd/ent")), 0644)
+	_ = os.WriteFile(target, bytes.ReplaceAll(buf, oldCmd, []byte("github.com/briancabbott/entgo/cmd/ent")), 0644)
 }
