@@ -7,7 +7,7 @@ package index_test
 import (
 	"testing"
 
-	"entgo.io/ent/schema/index"
+	"github.com/briancabbott/entgo/schema/index"
 
 	"github.com/stretchr/testify/require"
 )

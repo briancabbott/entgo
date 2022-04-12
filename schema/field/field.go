@@ -14,7 +14,7 @@ import (
 	"regexp"
 	"time"
 
-	"entgo.io/ent/schema"
+	"github.com/briancabbott/entgo/schema"
 )
 
 // String returns a new Field with type string.
