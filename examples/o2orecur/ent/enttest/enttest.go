@@ -9,11 +9,11 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/ent/examples/o2orecur/ent"
+	"github.com/briancabbott/entgo/examples/o2orecur/ent"
 	// required by schema hooks.
-	_ "entgo.io/ent/examples/o2orecur/ent/runtime"
+	_ "github.com/briancabbott/entgo/examples/o2orecur/ent/runtime"
 
-	"entgo.io/ent/dialect/sql/schema"
+	"github.com/briancabbott/entgo/dialect/sql/schema"
 )
 
 type (

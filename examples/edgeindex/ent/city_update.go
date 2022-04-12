@@ -11,12 +11,12 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/examples/edgeindex/ent/city"
-	"entgo.io/ent/examples/edgeindex/ent/predicate"
-	"entgo.io/ent/examples/edgeindex/ent/street"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/edgeindex/ent/city"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/edgeindex/ent/predicate"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/edgeindex/ent/street"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 // CityUpdate is the builder for updating City entities.

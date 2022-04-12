@@ -11,14 +11,14 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/ent/examples/edgeindex/ent/migrate"
+	"github.com/briancabbott/entgo/examples/edgeindex/ent/migrate"
 
-	"entgo.io/ent/examples/edgeindex/ent/city"
-	"entgo.io/ent/examples/edgeindex/ent/street"
+	"github.com/briancabbott/entgo/examples/edgeindex/ent/city"
+	"github.com/briancabbott/entgo/examples/edgeindex/ent/street"
 
-	"entgo.io/ent/dialect"
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/dialect"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
 )
 
 // Client is the client that holds all ent builders.

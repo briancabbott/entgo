@@ -10,9 +10,9 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/ent/examples/privacyadmin/ent"
+	"github.com/briancabbott/entgo/examples/privacyadmin/ent"
 
-	"entgo.io/ent/privacy"
+	"github.com/briancabbott/entgo/privacy"
 )
 
 var (

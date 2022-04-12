@@ -9,11 +9,11 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/ent/examples/o2m2types/ent"
+	"github.com/briancabbott/entgo/examples/o2m2types/ent"
 	// required by schema hooks.
-	_ "entgo.io/ent/examples/o2m2types/ent/runtime"
+	_ "github.com/briancabbott/entgo/examples/o2m2types/ent/runtime"
 
-	"entgo.io/ent/dialect/sql/schema"
+	"github.com/briancabbott/entgo/dialect/sql/schema"
 )
 
 type (

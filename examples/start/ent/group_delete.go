@@ -10,11 +10,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/examples/start/ent/group"
-	"entgo.io/ent/examples/start/ent/predicate"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/examples/start/ent/group"
+	"github.com/briancabbott/entgo/examples/start/ent/predicate"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // GroupDelete is the builder for deleting a Group entity.

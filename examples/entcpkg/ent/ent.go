@@ -11,10 +11,10 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent"
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/examples/entcpkg/ent/user"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/examples/entcpkg/ent/user"
 )
 
 // ent aliases to avoid import conflicts in user's code.

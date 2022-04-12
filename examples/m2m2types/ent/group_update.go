@@ -11,12 +11,12 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/examples/m2m2types/ent/group"
-	"entgo.io/ent/examples/m2m2types/ent/predicate"
-	"entgo.io/ent/examples/m2m2types/ent/user"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/m2m2types/ent/group"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/m2m2types/ent/predicate"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/m2m2types/ent/user"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 // GroupUpdate is the builder for updating Group entities.

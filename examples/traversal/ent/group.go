@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/examples/traversal/ent/group"
-	"entgo.io/ent/examples/traversal/ent/user"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/group"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/user"
 )
 
 // Group is the model entity for the Group schema.

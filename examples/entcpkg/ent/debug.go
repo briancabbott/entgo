@@ -6,7 +6,7 @@
 
 package ent
 
-import "entgo.io/ent/dialect"
+import "github.com/briancabbott/entgo/dialect"
 
 func (c *UserClient) Debug() *UserClient {
 	if c.debug {

@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/examples/o2mrecur/ent/node"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/examples/o2mrecur/ent/node"
 )
 
 // Node is the model entity for the Node schema.

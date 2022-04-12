@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"sync"
 
-	"entgo.io/ent/examples/fs/ent/file"
-	"entgo.io/ent/examples/fs/ent/predicate"
+	"github.com/briancabbott/entgo/examples/fs/ent/file"
+	"github.com/briancabbott/entgo/examples/fs/ent/predicate"
 
-	"entgo.io/ent"
+	"github.com/briancabbott/entgo"
 )
 
 const (

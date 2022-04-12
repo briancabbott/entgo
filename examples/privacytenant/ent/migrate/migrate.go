@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"io"
 
-	"entgo.io/ent/dialect"
-	"entgo.io/ent/dialect/sql/schema"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/schema"
 )
 
 var (

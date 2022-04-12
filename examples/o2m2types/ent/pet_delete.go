@@ -10,11 +10,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/examples/o2m2types/ent/pet"
-	"entgo.io/ent/examples/o2m2types/ent/predicate"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/examples/o2m2types/ent/pet"
+	"github.com/briancabbott/entgo/examples/o2m2types/ent/predicate"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // PetDelete is the builder for deleting a Pet entity.

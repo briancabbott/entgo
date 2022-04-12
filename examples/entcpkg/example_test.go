@@ -11,8 +11,8 @@ import (
 	"net/http"
 	"os"
 
-	"entgo.io/ent/examples/entcpkg/ent"
-	"entgo.io/ent/examples/entcpkg/ent/hook"
+	"github.com/briancabbott/entgo/examples/entcpkg/ent"
+	"github.com/briancabbott/entgo/examples/entcpkg/ent/hook"
 
 	_ "github.com/mattn/go-sqlite3"
 )

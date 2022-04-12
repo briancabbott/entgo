@@ -7,9 +7,9 @@ package schema
 import (
 	"regexp"
 
-	"entgo.io/ent"
-	"entgo.io/ent/schema/edge"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/schema/edge"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // Group holds the schema definition for the Group entity.

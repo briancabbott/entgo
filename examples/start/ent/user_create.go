@@ -11,11 +11,11 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/examples/start/ent/car"
-	"entgo.io/ent/examples/start/ent/group"
-	"entgo.io/ent/examples/start/ent/user"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/examples/start/ent/car"
+	"github.com/briancabbott/entgo/examples/start/ent/group"
+	"github.com/briancabbott/entgo/examples/start/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // UserCreate is the builder for creating a User entity.

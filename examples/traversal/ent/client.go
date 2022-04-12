@@ -11,15 +11,15 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/ent/examples/traversal/ent/migrate"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/migrate"
 
-	"entgo.io/ent/examples/traversal/ent/group"
-	"entgo.io/ent/examples/traversal/ent/pet"
-	"entgo.io/ent/examples/traversal/ent/user"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/group"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/pet"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/user"
 
-	"entgo.io/ent/dialect"
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
 )
 
 // Client is the client that holds all ent builders.

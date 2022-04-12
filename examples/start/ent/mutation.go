@@ -13,12 +13,12 @@ import (
 	"sync"
 	"time"
 
-	"entgo.io/ent/examples/start/ent/car"
-	"entgo.io/ent/examples/start/ent/group"
-	"entgo.io/ent/examples/start/ent/predicate"
-	"entgo.io/ent/examples/start/ent/user"
+	"github.com/briancabbott/entgo/examples/start/ent/car"
+	"github.com/briancabbott/entgo/examples/start/ent/group"
+	"github.com/briancabbott/entgo/examples/start/ent/predicate"
+	"github.com/briancabbott/entgo/examples/start/ent/user"
 
-	"entgo.io/ent"
+	"github.com/briancabbott/entgo"
 )
 
 const (

@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/examples/start/ent/group"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/examples/start/ent/group"
 )
 
 // Group is the model entity for the Group schema.

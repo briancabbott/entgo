@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/ent/examples/m2m2types/ent"
-	"entgo.io/ent/examples/m2m2types/ent/group"
-	"entgo.io/ent/examples/m2m2types/ent/user"
+	"github.com/briancabbott/entgo/examples/m2m2types/ent"
+	"github.com/briancabbott/entgo/examples/m2m2types/ent/group"
+	"github.com/briancabbott/entgo/examples/m2m2types/ent/user"
 
 	_ "github.com/mattn/go-sqlite3"
 )

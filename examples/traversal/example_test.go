@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/ent/dialect/sql/schema"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/schema"
 
-	"entgo.io/ent/examples/traversal/ent"
-	"entgo.io/ent/examples/traversal/ent/group"
-	"entgo.io/ent/examples/traversal/ent/pet"
-	"entgo.io/ent/examples/traversal/ent/user"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/group"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/pet"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/traversal/ent/user"
 
 	_ "github.com/mattn/go-sqlite3"
 )

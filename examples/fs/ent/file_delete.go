@@ -10,11 +10,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/examples/fs/ent/file"
-	"entgo.io/ent/examples/fs/ent/predicate"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/fs/ent/file"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/fs/ent/predicate"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 // FileDelete is the builder for deleting a File entity.

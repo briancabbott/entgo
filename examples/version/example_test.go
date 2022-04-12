@@ -10,9 +10,9 @@ import (
 	"log"
 	"time"
 
-	"entgo.io/ent/examples/version/ent"
-	_ "entgo.io/ent/examples/version/ent/runtime"
-	"entgo.io/ent/examples/version/ent/user"
+	"github.com/briancabbott/entgo/examples/version/ent"
+	_ "github.com/briancabbott/entgo/examples/version/ent/runtime"
+	"github.com/briancabbott/entgo/examples/version/ent/user"
 
 	_ "github.com/mattn/go-sqlite3"
 )

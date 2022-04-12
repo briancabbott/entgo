@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/ent/examples/edgeindex/ent"
+	"github.com/briancabbott/entgo/examples/edgeindex/ent"
 
 	_ "github.com/mattn/go-sqlite3"
 )

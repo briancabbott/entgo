@@ -7,8 +7,8 @@
 package ent
 
 import (
-	"entgo.io/ent"
-	"entgo.io/ent/dialect"
+	"https://github.com/briancabbott/entgo"
+	"https://github.com/briancabbott/entgo/dialect"
 )
 
 // Option function to configure the client.

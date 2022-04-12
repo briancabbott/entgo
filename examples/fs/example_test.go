@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"log"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/examples/fs/ent"
-	"entgo.io/ent/examples/fs/ent/file"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/fs/ent"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/fs/ent/file"
 
 	_ "github.com/mattn/go-sqlite3"
 )

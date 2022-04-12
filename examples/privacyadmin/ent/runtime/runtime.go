@@ -9,11 +9,11 @@ package runtime
 import (
 	"context"
 
-	"entgo.io/ent/examples/privacyadmin/ent/schema"
-	"entgo.io/ent/examples/privacyadmin/ent/user"
+	"github.com/briancabbott/entgo/examples/privacyadmin/ent/schema"
+	"github.com/briancabbott/entgo/examples/privacyadmin/ent/user"
 
-	"entgo.io/ent"
-	"entgo.io/ent/privacy"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/privacy"
 )
 
 // The init function reads all schema descriptors with runtime code

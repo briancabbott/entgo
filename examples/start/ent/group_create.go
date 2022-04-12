@@ -11,10 +11,10 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/examples/start/ent/group"
-	"entgo.io/ent/examples/start/ent/user"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/examples/start/ent/group"
+	"github.com/briancabbott/entgo/examples/start/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // GroupCreate is the builder for creating a Group entity.

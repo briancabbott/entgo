@@ -10,11 +10,11 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/examples/privacytenant/ent/predicate"
-	"entgo.io/ent/examples/privacytenant/ent/tenant"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/predicate"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/tenant"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 // TenantDelete is the builder for deleting a Tenant entity.

@@ -12,12 +12,12 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/examples/o2o2types/ent/card"
-	"entgo.io/ent/examples/o2o2types/ent/predicate"
-	"entgo.io/ent/examples/o2o2types/ent/user"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/examples/o2o2types/ent/card"
+	"github.com/briancabbott/entgo/examples/o2o2types/ent/predicate"
+	"github.com/briancabbott/entgo/examples/o2o2types/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // CardUpdate is the builder for updating Card entities.

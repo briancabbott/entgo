@@ -5,9 +5,9 @@
 package schema
 
 import (
-	"entgo.io/ent"
-	"entgo.io/ent/schema/edge"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/edge"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 // User holds the schema definition for the User entity.

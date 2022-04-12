@@ -7,7 +7,7 @@
 package predicate
 
 import (
-	"entgo.io/ent/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // City is the predicate function for city builders.

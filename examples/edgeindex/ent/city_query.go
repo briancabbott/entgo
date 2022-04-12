@@ -12,12 +12,12 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/examples/edgeindex/ent/city"
-	"entgo.io/ent/examples/edgeindex/ent/predicate"
-	"entgo.io/ent/examples/edgeindex/ent/street"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/examples/edgeindex/ent/city"
+	"github.com/briancabbott/entgo/examples/edgeindex/ent/predicate"
+	"github.com/briancabbott/entgo/examples/edgeindex/ent/street"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // CityQuery is the builder for querying City entities.

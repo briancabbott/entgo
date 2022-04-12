@@ -5,11 +5,11 @@
 package schema
 
 import (
-	"entgo.io/ent"
-	"entgo.io/ent/examples/privacytenant/ent/privacy"
-	"entgo.io/ent/examples/privacytenant/rule"
-	"entgo.io/ent/schema/edge"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgoriancabbott/entgo"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacytenant/ent/privacy"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/privacytenant/rule"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/edge"
+	"github.com/briancabbott/entgoriancabbott/entgo/schema/field"
 )
 
 // User holds the schema definition for the Group entity.

@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"sync"
 
-	"entgo.io/ent/examples/o2obidi/ent/predicate"
-	"entgo.io/ent/examples/o2obidi/ent/user"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2obidi/ent/predicate"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2obidi/ent/user"
 
-	"entgo.io/ent"
+	"github.com/briancabbott/entgoriancabbott/entgo"
 )
 
 const (

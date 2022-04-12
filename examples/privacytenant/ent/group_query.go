@@ -13,13 +13,13 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/examples/privacytenant/ent/group"
-	"entgo.io/ent/examples/privacytenant/ent/predicate"
-	"entgo.io/ent/examples/privacytenant/ent/tenant"
-	"entgo.io/ent/examples/privacytenant/ent/user"
-	"entgo.io/ent/schema/field"
+	"github.com/briancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgo/examples/privacytenant/ent/group"
+	"github.com/briancabbott/entgo/examples/privacytenant/ent/predicate"
+	"github.com/briancabbott/entgo/examples/privacytenant/ent/tenant"
+	"github.com/briancabbott/entgo/examples/privacytenant/ent/user"
+	"github.com/briancabbott/entgo/schema/field"
 )
 
 // GroupQuery is the builder for querying Group entities.

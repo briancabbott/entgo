@@ -7,8 +7,8 @@
 package ent
 
 import (
-	"entgo.io/ent/examples/version/ent/schema"
-	"entgo.io/ent/examples/version/ent/user"
+	"github.com/briancabbott/entgo/examples/version/ent/schema"
+	"github.com/briancabbott/entgo/examples/version/ent/user"
 )
 
 // The init function reads all schema descriptors with runtime code

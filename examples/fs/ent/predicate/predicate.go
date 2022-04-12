@@ -7,7 +7,7 @@
 package predicate
 
 import (
-	"entgo.io/ent/dialect/sql"
+	"github.com/briancabbott/entgo/dialect/sql"
 )
 
 // File is the predicate function for file builders.

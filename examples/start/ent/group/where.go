@@ -7,9 +7,9 @@
 package group
 
 import (
-	"entgo.io/ent/dialect/sql"
-	"entgo.io/ent/dialect/sql/sqlgraph"
-	"entgo.io/ent/examples/start/ent/predicate"
+	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/dialect/sql"
+	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/dialect/sql/sqlgraph"
+	"github.com/briancabbott/entgoriancabbott/entgoriancabbott/entgo/examples/start/ent/predicate"
 )
 
 // ID filters vertices based on their ID field.

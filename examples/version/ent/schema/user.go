@@ -7,9 +7,9 @@ package schema
 import (
 	"time"
 
-	"entgo.io/ent"
-	"entgo.io/ent/schema/field"
-	"entgo.io/ent/schema/mixin"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/schema/field"
+	"github.com/briancabbott/entgo/schema/mixin"
 )
 
 // User holds the schema definition for the User entity.

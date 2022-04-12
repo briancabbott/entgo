@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"sync"
 
-	"entgo.io/ent/examples/o2orecur/ent/node"
-	"entgo.io/ent/examples/o2orecur/ent/predicate"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2orecur/ent/node"
+	"github.com/briancabbott/entgoriancabbott/entgo/examples/o2orecur/ent/predicate"
 
-	"entgo.io/ent"
+	"github.com/briancabbott/entgoriancabbott/entgo"
 )
 
 const (

@@ -9,11 +9,11 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/ent/examples/traversal/ent"
+	"github.com/briancabbott/entgo/examples/traversal/ent"
 	// required by schema hooks.
-	_ "entgo.io/ent/examples/traversal/ent/runtime"
+	_ "github.com/briancabbott/entgo/examples/traversal/ent/runtime"
 
-	"entgo.io/ent/dialect/sql/schema"
+	"github.com/briancabbott/entgo/dialect/sql/schema"
 )
 
 type (
