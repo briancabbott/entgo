@@ -9,8 +9,8 @@ package customtype
 import (
 	"time"
 
-	"github.com/briancabbottl"
-	"github.com/briancabbottration/migrate/entv2/predicate"
+	"github.com/briancabbott/entgo"
+	"github.com/briancabbott/entgo/entc/integration/migrate/entv2/predicate"
 )
 
 // ID filters vertices based on their ID field.
